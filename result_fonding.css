@@ -1,0 +1,48 @@
+.dbg {
+    outline: 1px solid lightgray;
+}
+body {
+    margin: 0px; padding: 2px;
+    border: 1px solid red;
+    height: 100%;
+}
+#main {
+    border: 1px solid green;
+}
+#left {
+    border: 1px solid pink;
+    width: 10%;
+    margin: 1px;
+    float: left;
+}
+.cont_wrap {
+    border: 1px solid skyblue;
+    height: 100px; 
+    width: 88%;
+    margin: 1px;
+    display: block;
+    overflow: hidden;
+}
+.cont {
+    border: 1px solid skyblue;
+    height: 80px; 
+    width: 98%;
+    margin: 1px;
+    display: block;
+    overflow: hidden;
+}
+.cont_tail {
+    border: 1px solid skyblue;
+    height: 15px; 
+    width: 98%;
+    margin: 1px;
+    display: block;
+    overflow: hidden;
+    text-align: right;
+    font-size: 0.7em;
+}
+.tail_btn {
+    margin: 0px 1px;
+    padding: 0px 1px;
+    float: left;
+}
