@@ -1,5 +1,5 @@
-function on_expand() {
-    const expanded = document.getElementById('content-1').className === 'cont-content-expanded';
-    document.getElementById('content-1').className = expanded ? 'cont-content-collapsed' : 'cont-content-expanded';
-    document.getElementById('dim-1').style.visibility = expanded ? "hidden" : "";
+function on_expand(id) {
+    const expanded = document.getElementById(`content-${id}`).className === 'cont-content-expanded';
+    document.getElementById(`content-${id}`).className = expanded ? 'cont-content-collapsed' : 'cont-content-expanded';
+    document.getElementById(`dim-${id}`).style.visibility = expanded ? "hidden" : "";
 }
