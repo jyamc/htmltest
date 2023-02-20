@@ -17,11 +17,11 @@ body {
 }
 .cont_wrap {
     border: 1px solid skyblue;
-    height: 100px; 
+    height: auto; 
     width: 88%;
     margin: 1px;
-    display: block;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 .cont {
     border: 1px solid skyblue;
@@ -45,4 +45,22 @@ body {
     margin: 0px 1px;
     padding: 0px 1px;
     float: left;
+}
+
+.cont-content-collapsed {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+}
+
+.cont-content-expanded {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-footer {
+    margin-top: auto;
 }
