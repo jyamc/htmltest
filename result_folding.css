@@ -48,10 +48,18 @@ body {
 }
 
 .cont-content-collapsed {
+    position: relative;
     height: 100px;
     display: flex;
     flex-direction: column;
     overflow: hidden;
+}
+
+.cont-content-collapsed-dim {
+    position: absolute;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
     background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
 }
 
